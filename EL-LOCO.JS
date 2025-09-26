@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>El Loco Chatbot - Locos Gringos Pick-N-Pull</title>
-</head>
-<body>
-
 <script>
 // Wix Custom Element Code - Add to Wix via Settings > Custom Code
 // Make sure to set it to load on all pages, in the body end
