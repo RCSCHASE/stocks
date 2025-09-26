@@ -1,25 +1,3 @@
-<script>
-// Wix Custom Element Code - Add to Wix via Settings > Custom Code
-// Make sure to set it to load on all pages, in the body end
-
-(function() {
-    // Check if we're in Wix environment
-    if (typeof window !== 'undefined') {
-        // Create and inject the chatbot container
-        const chatbotContainer = document.createElement('div');
-        chatbotContainer.id = 'el-loco-chatbot-container';
-        document.body.appendChild(chatbotContainer);
-        
-        // Load the main chatbot script
-        const script = document.createElement('script');
-        script.src = 'https://cdn.jsdelivr.net/gh/yourusername/locos-gringos-chatbot@latest/el-loco-chatbot.min.js'; // Make sure this URL is correct
-        script.async = true;
-        document.body.appendChild(script);
-    }
-})();
-</script>
-
-<script>
 // El Loco Chatbot - Locos Gringos Pick-N-Pull
 // Version 5.0 - Updated with Full Price List and Improved Vehicle Search
 // Author: Locos Gringos Development Team & Gemini AI
@@ -1479,7 +1457,3 @@
     });
 
 })();
-</script>
-
-</body>
-</html>
